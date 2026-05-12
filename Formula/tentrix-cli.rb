@@ -1,26 +1,26 @@
 class TentrixCli < Formula
   desc "Coding agents on Tentrix"
   homepage "https://github.com/intentlab-ai/tentrix"
-  version "0.1.5"
+  version "0.1.6"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://cli.intentlab.ai/tentrix-cli/releases/v0.1.5/tentrix-cli_v0.1.5_darwin_arm64.tar.gz"
-      sha256 "c3e5573635f77fd3e6395613a4a7274ddc1396c08bf18b63b64c5cc034f4a571"
+      url "https://cli-dev.intentlab.ai/tentrix-cli/releases/v0.1.6/tentrix-cli_v0.1.6_darwin_arm64.tar.gz"
+      sha256 "e686db5f29e928291beefd75c1bdc21118e79a4187f93822c461fb5932f447fc"
     else
-      url "https://cli.intentlab.ai/tentrix-cli/releases/v0.1.5/tentrix-cli_v0.1.5_darwin_amd64.tar.gz"
-      sha256 "468e6dd755923940d8bc95caf804e6cfa77f8e7cc05433d590956dcdaf6d7b5a"
+      url "https://cli-dev.intentlab.ai/tentrix-cli/releases/v0.1.6/tentrix-cli_v0.1.6_darwin_amd64.tar.gz"
+      sha256 "4526ee8496008f19c51a99071cc286621200102ab9db2bae6d6779363bc2ace6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://cli.intentlab.ai/tentrix-cli/releases/v0.1.5/tentrix-cli_v0.1.5_linux_arm64.tar.gz"
-      sha256 "068b69ee9579421842734fa73709e515ff0a18d051c9ef515a0c6fe05a3bc980"
+      url "https://cli-dev.intentlab.ai/tentrix-cli/releases/v0.1.6/tentrix-cli_v0.1.6_linux_arm64.tar.gz"
+      sha256 "b47fb6b9ae76f8d6682cc56d2c8a53b0dc332d43568d15a3b4cf867d1ea794ca"
     else
-      url "https://cli.intentlab.ai/tentrix-cli/releases/v0.1.5/tentrix-cli_v0.1.5_linux_amd64.tar.gz"
-      sha256 "cf0fc3ccf2865df52e85e2929b93b8144091807680eefb54810af8786803e788"
+      url "https://cli-dev.intentlab.ai/tentrix-cli/releases/v0.1.6/tentrix-cli_v0.1.6_linux_amd64.tar.gz"
+      sha256 "37e56aab46298d265e4f004633c50dfcd05b4e0f9d17cbe29001ec6e95cf42c9"
     end
   end
 
